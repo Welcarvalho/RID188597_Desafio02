@@ -1,0 +1,33 @@
+html {
+    font-family: "Montserrat";
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    padding: 3.5rem 9.5rem;
+    text-align: center;
+}
+
+.backgroundTealGreen{
+    background: #02A28F;
+    color: #ffffff;
+    display: grid;
+    
+}
+
+#textHeader{
+    font-size: 2.5rem ;
+    margin: 1rem 0 1rem 9.5rem;
+}
+
+.Copyright{
+    justify-content: center ;
+    padding: 1rem 0 ;
+}
