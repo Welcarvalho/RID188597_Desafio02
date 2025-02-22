@@ -10,7 +10,7 @@ body {
     margin: 0;
 }
 
-.backgroundTealGreen{
+.backgroundTealGreen {
     background: #02A28F;
     color: #ffffff;
     display: grid;
@@ -19,27 +19,27 @@ body {
 
 
 
-#textHeader{
-    font-size: 2.5rem ;
+#textHeader {
+    font-size: 2.5rem;
     margin: 1rem 0 1rem 9.5rem;
 }
 
 .container {
-    padding: 3.5rem 9.5rem; 
-    
+    padding: 3.5rem 9.5rem;
     display: flex;
+    margin: 0;
 }
 
-p{
- font-size: .5rem;
+p {
+    font-size: .5rem;
 }
 
-h2{
+h2 {
     font-size: 1rem;
     font-weight: 700;
 }
 
-.post{
+.post {
     box-shadow: 0 .6rem .6rem 0 #0000001A;
     border-radius: .6rem;
     gap: 1rem;
@@ -47,50 +47,49 @@ h2{
     margin: 0;
 }
 
-.cardsPostArticle{
+.cardsPostArticle {
     box-shadow: 0 .6rem .6rem 0 #0000001A;
     border-radius: .6rem;
     gap: 1rem;
     padding: 1rem 1.5rem;
 }
-/*.cardsPostArticle > img {
-width: 132;
-height: 70;
-top: 201px;
-left: 937px;
-border-radius: 10px;
 
-} */
+.cardsPostArticle>img {
+    width: 8vw;
+    height: 8vh;
+    border-radius: 10px;
+}
 
-.banner{
+.banner {
     width: 50%;
     margin-right: 1.5rem;
 }
 
-.cardsPostArticle{
+.cardsPostArticle {
     display: flex;
     justify-content: space-around;
 }
-.cardsPostArticle > img{
+
+.cardsPostArticle>img {
     object-fit: cover;
-    width: 50%;    
+    width: 50%;
 }
 
-.recentPost{
+.recentPost {
     width: 46.5vw;
     height: 3.5vh;
-    padding: 1rem 1.5rem ;
-    display: flex;   
+    padding: 1rem 1.5rem;
+    display: flex;
     justify-content: space-between;
     text-align: center;
-    padding: 1rem 1.5rem ;
-   
+    margin-bottom: .6rem;
 }
 
-.recentPost > h1{
+.recentPost>h1 {
     margin: 0;
 }
-.recentPost > a {
+
+.recentPost>a {
     font-family: "Montserrat";
     color: #ffffff;
     font-weight: 500;
@@ -98,20 +97,71 @@ border-radius: 10px;
     line-height: 1rem;
     letter-spacing: 0%;
     text-decoration: underline;
-    text-decoration-style: solid;    
+    text-decoration-style: solid;
     text-decoration-thickness: Auto;
 }
 
-.cardRecentPost{
-width: 22.5vw;
-height: 25vh;
-display: grid;
-grid-template-columns: auto;
 
+.cardsContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.cardRecentPost {
+    width: 22.5rem;
+    height: 20rem;
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.cardRecentPost>img {
+    width: 22.5rem;
+    height: 12rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
 
 }
 
-.Copyright{
-    justify-content: center ;
-    padding: 1rem 0 ;
+.cardText {
+    width: 360;
+    height: 205;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    padding: 16px;
+    box-shadow: 0px 10px 20px 0px #0000001A;
+}
+
+.sidbarpost {
+    width: 22.5vw;
+    height: 3vh;
+    padding: 1rem 1.5rem;
+    justify-content: space-between;
+    margin-bottom: .6rem;
+    box-shadow: 0 .6rem .6rem 0 #0000001A;
+    border-radius: .6rem;
+}
+
+.sidbarpost>h1 {
+    margin: 0;
+}
+
+.textSidbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.textSidbar>h2 {
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.3rem;
+    letter-spacing: 0%;
+    color:#616161;
+    ;
+}
+
+.Copyright {
+    justify-content: center;
+    padding: 1rem 0;
 }
