@@ -26,7 +26,8 @@ body {
 
 .container {
     padding: 3.5rem 9.5rem;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat( 2, 1fr);
     margin: 0;
 }
 
@@ -39,6 +40,15 @@ h2 {
     font-weight: 700;
 }
 
+.banner {
+    width: 744;
+    height: 396;
+    border-radius: 10px;
+    gap: 10px;
+    padding: 1.5rem;
+
+}
+
 .post {
     box-shadow: 0 .6rem .6rem 0 #0000001A;
     border-radius: .6rem;
@@ -47,27 +57,24 @@ h2 {
     margin: 0;
 }
 
+.postPopular{
+    width: 22.5vw;
+    height: 3vh;
+}
+
 .cardsPostArticle {
+    width: 22.5vw;
     box-shadow: 0 .6rem .6rem 0 #0000001A;
     border-radius: .6rem;
     gap: 1rem;
     padding: 1rem 1.5rem;
+    display: flex;
 }
 
 .cardsPostArticle>img {
     width: 8vw;
     height: 8vh;
     border-radius: 10px;
-}
-
-.banner {
-    width: 50%;
-    margin-right: 1.5rem;
-}
-
-.cardsPostArticle {
-    display: flex;
-    justify-content: space-around;
 }
 
 .cardsPostArticle>img {
@@ -152,6 +159,8 @@ h2 {
 }
 
 .textSidbar>h2 {
+    width: 22.5vw;
+    height: 3vh;
     font-family: "Montserrat";
     font-weight: 600;
     font-size: 1rem;
